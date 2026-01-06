@@ -47,52 +47,6 @@ Cada nodo de la cadena representa un bloque que contiene:
 
 ---
 
-## 📂 Estructura del Proyecto
-
-```bash
-.
-├── blockchain.c    # Lógica central: creación de bloques y hashing
-├── list.c          # Motor de la lista enlazada: inserción y manipulación
-├── blockchain.h    # Definiciones de estructuras y prototipos de blockchain
-├── list.h          # Gestión de la estructura de datos de la lista
-└── README.md       # Documentación técnica
-
-```
-
----
-
-## ⚙️ Instalación y Compilación
-
-Para ejecutar este proyecto en tu entorno local, asegúrate de tener instalado un compilador de C (como `gcc`).
-
-1. Clona el repositorio:
-```bash
-git clone https://github.com/tu-usuario/blockchain-c.git
-
-```
-
-
-2. Compila los archivos:
-```bash
-gcc blockchain.c list.c -o blockchain_sim
-
-```
-
-
-3. Ejecuta la simulación:
-```bash
-./blockchain_sim
-
-```
-
-
-
----
-
 ## ✒️ Autor
 
 Proyecto desarrollado con fines educativos por **Sebastián Fernández Buelvas**.
-
----
-
-¿Te gustaría que añadiera una sección de **"Futuras Mejoras"** (como implementar una Prueba de Trabajo o validación de hashes) para que el repositorio se vea más ambicioso?
